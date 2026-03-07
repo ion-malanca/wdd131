@@ -1,6 +1,5 @@
 .roboto-mono-font {
   font-family: "Roboto Mono", monospace;
-  font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
 }
@@ -40,6 +39,7 @@ nav {
     height: 3rem;
     background-color: #333333;
     font-size: 1.3rem;
+    color: #ffffff;
 }
 
 nav a {
@@ -177,6 +177,7 @@ footer {
     background-color: #1d4d72;
     justify-content: center;
     align-items: center;
+    color: #ffffff;
 }
 
 .copy {
