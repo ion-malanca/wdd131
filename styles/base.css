@@ -1,6 +1,17 @@
+.roboto-mono-font {
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
 * {
     margin: 0;
     padding: 0;
+}
+
+header {
+    font-family: "Lucida Console", "Courier New", monospace;
 }
 
 .title {
@@ -10,6 +21,7 @@
     background-color: #1d4d72;
     justify-content: center;
     align-items: center;
+    color: #ffffff;
 }
 
 .title p {
@@ -19,19 +31,29 @@
 }
 
 nav {
-    display: flex;
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: center;
+    align-items: center;
+    gap: 17rem;
     width: auto;
     height: 3rem;
     background-color: #333333;
     font-size: 1.3rem;
-    justify-content: center;
-    align-items: center;
-    gap: 19rem;
 }
 
 nav a {
     color: #ffffff;
     text-decoration: none;
+    transition: transform 0.3s;
+}
+
+nav a:hover {
+  transform: scale(1.07);
+}
+
+main {
+    font-family: "Roboto Mono", monospace;
 }
 
 main h1 {
@@ -88,7 +110,7 @@ main h1 {
 }
 
 .personal p {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
 }
 
 .personal {
@@ -122,7 +144,7 @@ hr {
 }
 
 .outer p {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
 }
 
 .inner {
