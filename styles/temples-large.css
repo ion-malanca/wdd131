@@ -1,0 +1,55 @@
+@media (min-width: 700px) {
+
+    header, main, footer {
+        width: 100%;
+    }
+
+    header {
+        gap: 29rem
+    }
+
+    header h2 {
+        font-size: 45px;
+        width: 350px;
+    }
+
+    main h1 {
+        font-size: 55px;
+        padding-bottom: 1rem;
+    }
+
+    main img {
+    width: 350px;
+    }
+
+    main figcaption {
+        font-size: 25px;
+    }
+
+    .pictures {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    .navigation {
+        flex-direction: row;
+        gap: 1rem
+    }
+
+    .navigation a {
+        font-size: 35px;
+        display: block;
+        flex: 1 1 auto;
+    }
+
+    .copy {
+        font-size: 2.5rem;
+    }
+
+    .modification {
+        font-size: 1.6rem;
+    }
+}
