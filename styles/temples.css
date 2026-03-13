@@ -50,6 +50,10 @@ nav {
     transition: transform 0.3s;
 }
 
+.navigation a:focus {
+    outline: 3px solid white;
+}
+
 nav a:hover {
   transform: scale(1.07);
 }
