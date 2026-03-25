@@ -1,0 +1,82 @@
+@media (min-width: 700px) {
+    :root {
+    --primary-blue: #0033A0;
+    --accent-yellow: #FFD100;
+    --background: #FFFFFF;
+    --text-main: #111111;
+    --text-light: #FFFFFF;
+    --secondary-accent: #c41e2c;
+    }
+
+    header, main, footer {
+        width: 100%;
+    }
+
+    main img {
+        width: 100%;
+        display: block;
+    }
+
+    .hero {
+        position: relative;
+        width: 100%;
+    }
+
+    .hero .data {
+        width: 350px;
+        position: absolute;
+        top: 55px;
+        left: 35px;
+        background-color: rgba(255, 255, 255, 0.7);
+    }
+
+    .hero .data h2 {
+        color: var(--text-light);
+        padding-bottom: 15px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        background-color: var(--secondary-accent);
+        position: relative;
+        left: -10px;
+    }
+
+    .hero .weather {
+        width: 350px;
+        position: absolute;
+        top: 500px;
+        left: 1050px;
+        background-color: rgba(255, 255, 255, 0.7);
+        padding-bottom: 15px;
+    }
+
+    .hero .weather img {
+        display: none;
+    }
+
+    .hero .weather .headers {
+        padding-bottom: 15px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        background-color: var(--secondary-accent);
+        position: relative;
+        left: -10px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .hero .weather h2 {
+        color: var(--text-light);
+    }
+
+    .hero .weather .headers::after {
+        content: "  ⛅";
+        font-size: 45px;
+        color: var(--text-light);
+        display: inline-block;
+    }
+
+    footer {
+        margin-top: 0;
+    }
+}

@@ -1,0 +1,134 @@
+:root {
+  --primary-blue: #0033A0;
+  --accent-yellow: #FFD100;
+  --background: #FFFFFF;
+  --text-main: #111111;
+  --text-light: #FFFFFF;
+  --secondary-accent: #c41e2c;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main, header, footer {
+    width: 370px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary-blue);
+}
+
+header h1 {
+    color: var(--text-light);
+    font-size: 45px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+main {
+    background-color: var(--accent-yellow);
+}
+
+main img {
+    width: 370px;
+    height: auto;
+    padding-top: 10px;
+}
+
+.data {
+    background-color: var(--background);
+    padding-bottom: 20px;
+}
+
+.data h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    padding-top: 15px;
+    padding-bottom: 25px;
+    color: var(--text-main);
+}
+
+.headers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.inside {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    width: 240px;
+    font-size: 20px;
+    color: var(--text-main);
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 15px;
+    font-weight: bold;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.weather {
+    background-color: var(--background);
+}
+
+.weather h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    padding-top: 15px;
+    color: var(--text-main);
+}
+
+.weather img {
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    height: auto;
+    padding-bottom: 15px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    background-color: var(--secondary-accent);
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.copy {
+    padding-top: 1rem;
+    font-size: 25px;
+    color: var(--text-light);
+}
+
+.modification {
+    font-size: 15px;
+    color: var(--text-light);
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+}

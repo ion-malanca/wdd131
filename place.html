@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals, Ion Malanca, Country Page">
+    <meta name="author" content="Ion Malanca">
+    <title>WDD 131 - Dynamic Web Fundamentals - Ion Malanca</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/place.css">
+    <link rel="stylesheet" href="styles/place-large.css">
+    <script src="scripts/place.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Moldova</h1>
+    </header>
+    <main>
+        <div class="hero">
+            <picture>
+                <source srcset="images/sunflower-large.webp" media="(min-width: 700px)">
+                <img src="images/sunflower-small.webp" alt="Sunflower which represents the national flower of Moldova">
+            </picture>
+
+            <section class="data">
+                <h2>Data</h2>
+                <section class="inside">
+                    <article class="card main">
+                        <p>Area:</p>
+                        <p>Population:</p>
+                        <p>Capital:</p>
+                        <p>Languages:</p>
+                        <p>Currency:</p>
+                        <p>Time Zone:</p>
+                        <p>Calling Code:</p>
+                        <p>Internet TLD:</p>
+                    </article>
+                    <article class="card information">
+                        <p>33,846 km²</p>
+                        <p>2,380,000</p>
+                        <p>Chisinau</p>
+                        <p>Romanian</p>
+                        <p>Moldovan Leu</p>
+                        <p>GMT+2</p>
+                        <p>+373</p>
+                        <p>.md</p>
+                    </article>
+                </section>
+            </section>
+
+            <section class="weather">
+                <div class="headers">
+                    <h2>Weather</h2>
+                </div>
+                
+                <img src="images/weather.svg" alt="" aria-label="Weather icon">
+
+                <section class="inside">
+                    <article class="card main">
+                        <p>Temperature:</p>
+                        <p>Conditions:</p>
+                        <p>Wind:</p>
+                        <p>Wind Chill:</p>
+                    </article>
+                    <article class="card information">
+                        <p><span id="temperature"></span> °C</p>
+                        <p>Partly Cloudy</p>
+                        <p><span id="windSpeed"></span> km/h</p>
+                        <p><span id="windChill"></span></p>
+                    </article>
+                </section>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <p class="copy">©<span id="currentYear"></span> | Ion Malanca | Moldova</p>
+        <p class="modification">Last Modification: <span id="lastModified"></span></p>
+    </footer>
+</body>
+</html>
