@@ -1,0 +1,167 @@
+.roboto-mono-font {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+header, main, footer {
+    margin: 0 auto;
+}
+
+header {
+    width: 280px;
+    display: flex;
+    align-items: center;
+    background-color: #3c0a64;
+    color: #ffffff;
+    padding: 0.5rem 1rem;
+}
+
+header h2 {
+    font-size: 20px;
+    width: 150px;
+    padding-left: 0.5rem;
+}
+
+nav {
+    display: flex;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #3c0a64;
+    list-style-type: none;
+}
+
+.navigation a {
+    display: none;
+    padding: 1rem;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.navigation a:focus {
+    outline: 3px solid white;
+}
+
+nav a:hover {
+  transform: scale(1.07);
+}
+
+.open a {
+    display: block;
+}
+
+#menu {
+    margin-left: auto;
+    font-size: 1.5rem;
+    border: 0;
+    background: none;
+    color: #ffffff;
+}
+
+#menu::before {
+    content: "☰";
+}
+
+#menu.open::before {
+    content: "❌";
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    height: auto;
+    background-color: #3c0a64;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+
+.copy {
+    padding-top: 1rem;
+    font-size: 1rem;
+    color: #ffffff;
+}
+
+.modification {
+    font-size: 0.6rem;
+    color: #ffffff;
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+}
+
+main {
+    width: 280px;
+}
+
+.temple-card img {
+    margin-top: 0.7rem;
+    height: 120px;
+    width: auto;
+    box-shadow: 0 0 20px 0 #000000;
+}
+
+.temples-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    padding-bottom: 1rem;
+}
+
+.temple-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #dcdcdc;
+    background-color: #eeeeee;
+    padding: 1rem;
+}
+
+.temple-card h2 {
+    font-size: 20px;
+    padding-bottom: 1rem;
+}
+
+.label {
+    color: #3c0a64;
+}
+
+.temple-card p {
+    font-size: 12px;
+    padding-bottom: 2px;
+}
+
+main h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+main figure {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main figcaption {
+    padding-top: 0.2rem;
+    color: #3c0a64;
+}
+

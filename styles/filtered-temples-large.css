@@ -1,0 +1,67 @@
+@media (min-width: 700px) {
+
+    header, main, footer {
+        width: 100%;
+    }
+
+    header {
+        gap: 29rem
+    }
+
+    header h2 {
+        font-size: 45px;
+        width: 350px;
+    }
+
+    main h1 {
+        font-size: 55px;
+        padding-bottom: 1rem;
+    }
+
+    .temples-grid {
+        grid-template-columns: 1fr 1fr 1fr;
+        padding-left: 1rem;
+    }
+
+    .temple-card p {
+        font-size: 16px;
+    }
+
+    .temple-card {
+        width: 450px;
+    }
+
+    .temple-card h2 {
+        font-size: 35px;
+    }
+
+    .temple-card img {
+        margin-top: 0.7rem;
+        height: 220px;
+        width: auto;
+        box-shadow: 0 0 20px 0 #000000;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    .navigation {
+        flex-direction: row;
+        gap: 1rem
+    }
+
+    .navigation a {
+        font-size: 35px;
+        display: block;
+        flex: 1 1 auto;
+    }
+
+    .copy {
+        font-size: 2.5rem;
+    }
+
+    .modification {
+        font-size: 1.6rem;
+    }
+}
